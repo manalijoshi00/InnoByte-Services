@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Sukh Guest House</title>
+
+    <!-- Favicon -->
+    <!--<link rel="icon" type="images/png" href="images/favicon.png">-->
+
+    <!-- BootStrap 5 CDN Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Custom File's Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <span>KINGSUKH </span><span class="highlight">GUEST HOUSE</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                    <!--<span class="navbar-toggler-icon"></span> -->
+                    <i class="ri-menu-line"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#rooms">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item mt-3 mt-lg-0">
+                            <a class="main-btn" href="#">Book Now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner_wrapper p-0">
+        <div class="slide-caption text-center" style="background-image: url('images/slider/header.jpg');">
+            <div class="overlay"></div> 
+            <h1>Welcome to King  <span class="highlight">Sukh <br>Guest House</span></h1>
+            <p>Your home away from home</p>
+        </div>
+        <div class="container booking-area">
+            <form class="row">
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <input type="date" class="form-control" placeholder="Date">
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Adults</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <select class="form-select">
+                        <option selected>Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="col-lg mb-3 mb-lg-0">
+                    <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row flex-lg-row flex-column-reverse">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h3>Relax and <span>Unwind<br class="d-none-lg-block">
+                            at King</span> Sukh Guest House</h3>
+                    <p>At King Sukh Guest House, we believe in creating memorable experiences for our guests. 
+                    From the moment you step through our doors, our dedicated team is committed to ensuring your 
+                    comfort and satisfaction. Our attentive staff is always on hand to assist you with any request, 
+                    ensuring that your stay with us is nothing short of exceptional.</p>
+                    <a href="#" class="main-btn mt-4">Explore</a>
+                </div>
+                <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                    <img src="images/about/service.jpg" class="img-fluid" alt="about">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms_wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>What I can do for you</h6>
+                    <h3>Our <span class="highlight">Favorite Rooms</span></h3>
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="images/rooms/room1.jpg">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Cozy Haven Room</h5>
+                                <p class="text-white">Escape to comfort in our Cozy Haven Room, 
+                                    a snug retreat designed for intimate relaxation. </p>
+                                <p class="text-white fw-bold mt-lg-4">Rs. 1000/night</p>
+                                <a class="main-btn border-white text-white mt-lg-5" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="images/rooms/room2.jpg">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Spacious Serenity Suite</h5>
+                                <p class="text-white">Indulge in luxury and ample space in our Spacious Serenity Suite, 
+                                    where tranquility meets roomy elegance. </p>
+                                <p class="text-white fw-bold mt-lg-4">Rs. 1500/night</p>
+                                <a class="main-btn border-white text-white mt-lg-5" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-lg-0">
+                    <div class="room-items">
+                        <img src="images/rooms/room3.jpg">
+                        <div class="room-item-wrap">
+                            <div class="room-content">
+                                <h5 class="text-white mb-lg-5 text-decoration-underline">Presidential Suite Room</h5>
+                                <p class="text-white">Experience the pinnacle of luxury in our presidential suite,
+                                    where opulence meets unparalleled service.</p>
+                                <p class="text-white fw-bold mt-lg-4">Rs. 1600/night</p>
+                                <a class="main-btn border-white text-white mt-lg-5" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services_wrapper py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h6>We Are Here For You</h6>
+                    <h3>Our <span class="highlight">Services</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <img src="images/services/service.jpg" class="img-fluid" alt="Services">
+                </div>
+                <div class="col-lg-8">
+                    <ul class="service__list">
+                        <li>
+                            <span><i class="ri-shield-star-line"></i></span>
+                            High Class Security
+                        </li>
+                        <li>
+                            <span><i class="ri-24-hours-line"></i></span>
+                            24 Hours Room Service
+                        </li>
+                        <li>
+                            <span><i class="ri-restaurant-2-fill"></i></span>
+                            Restaurant
+                        </li>
+                        <li>
+                            <span><i class="ri-map-2-line"></i></span>
+                            Tourist Guide Support
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter mt-5 py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-5">
+                    <div class="counter-box">
+                        <h1>
+                            <span id="count1">0</span>+
+                        </h1>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="counter-box">
+                        <h1>
+                            <span id="count2">0</span>+
+                        </h1>
+                        <p>Bookings Completed</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <div class="counter-box">
+                        <h1>
+                            <span id="count3">0</span><i class="ri-star-s-fill"></i>
+                        </h1>
+                        <p>Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h6>Best Pictures Of Our Guest House</h6>
+                    <h3>Our <span class="highlight">Gallery</span></h3>
+                </div>
+            </div>
+            <div class="row g-0">
+                <div class="col-lg-3 col-md-5 gallery-item">
+                    <img src="images/gallery/gallery1.webp" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-3 col-md-5 gallery-item">
+                    <img src="images/gallery/gallery2.jpg" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-3 col-md-5 gallery-item">
+                    <img src="images/gallery/gallery3.webp" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-3 col-md-5 gallery-item">
+                    <img src="images/gallery/gallery4.jpg" class="img-fluid w-100">
+                </div>
+                <div class="col-md-5 gallery-item">
+                    <img src="images/gallery/gallery5.webp" class="img-fluid w-100">
+                </div>
+                <div class="col-md-5 gallery-item">
+                    <img src="images/gallery/gallery6.jpg" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-3 col-md-5 gallery-item">
+                    <img src="images/gallery/gallery7.webp" class="img-fluid w-100">
+                </div>
+                <div class="col-lg-3 col-md-5 gallery-item">
+                    <img src="images/gallery/gallery8.jpg" class="img-fluid w-100">
+                </div>
+                <div class="col-md-5 gallery-item">
+                    <img src="images/gallery/gallery9.jpg" class="img-fluid w-100">
+                </div>
+                <div class="col-md-5 gallery-item">
+                    <img src="images/gallery/gallery10.jpg" class="img-fluid w-100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact_wrapper py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 section-title text-center mb-5">
+                    <h3>Contact <span class="highlight-last-word">Us</span></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-4">
+                    <form id="contactForm" class="p-4 bg-white shadow ">
+                        <h4>Get in touch</h4>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Enter your number">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-5 contactInfo p-4 text-white">
+                    <h2>Contact Info</h2>
+                    <ul class="info list-unstyled">
+                        <li class="mb-3 d-flex align-items-start">
+                            <span class="me-3"><i class="ri-map-pin-line"></i></span>
+                            <span>Beside Barshal Water Tank,<br>Manpur, Barhanti,<br>West Bengal 723156</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <span class="me-3"><i class="ri-mail-line"></i></span>
+                            <span><a href="mailto:kkghosh0099@gmail.com" class="text-white">kkghosh0099@gmail.com</a></span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <span class="me-3"><i class="ri-phone-line"></i></span>
+                            <span><a href="tel:+919007062180" class="text-white">+91 9007062180</a></span>
+                        </li>
+                    </ul>
+                    <ul class="sci list-inline mt-4">
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white"><i class="ri-facebook-fill"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/kingsukhguesthouse/" target="_blank" class="text-white"><i class="ri-instagram-line"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white"><i class="ri-twitter-fill"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="text-white"><i class="ri-linkedin-fill"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5017351225647!2d86.85721547510981!3d23.586332378782714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f6e3fdd3ff9ebb%3A0x517a57e3f93c1807!2sKingsukh%20Guest%20House!5e0!3m2!1sen!2sin!4v1705088034844!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <!-- Footer Section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+        <div class="container pb-3">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <h5>king Sukh Guest House</h5>
+                    <p class="ps-0">
+                        Discover a world of comfort, luxury, and adventure as you explore
+                        our curated selection of hotels, making every moment of your getaway
+                        truly extraordinary.
+                    </p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="ri-map-pin-line"></i>Beside Barshal Water Tank,<br>Manpur, Barhanti,<br>West Bengal 723156</a></li>
+                            <li><a href="#"><i class="ri-phone-line"></i>+919007062180</a></li>
+                            <li><a href="#"><i class="ri-mail-line"></i>kkghosh0099@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Quick Links</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">Browse Destinations</a></li>
+                        <li><a href="#">Special Offers & Packages</a></li>
+                        <li><a href="#">Room Types & Amenities</a></li>
+                        <li><a href="#">Customer Reviews & Ratings</a></li>
+                        <li><a href="#">Travel Tips & Guides</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Our Services</h5>
+                    <ul class="link-widget p-0">
+                        <li><a href="#">Concierge Assistance</a></li>
+                        <li><a href="#">Flexible Booking Options</a></li>
+                        <li><a href="#">Airport Transfers</a></li>
+                        <li><a href="#">Wellness & Recreation</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5>Newsletter</h5>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-transarent" placeholder="enter your email here">
+                        <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</button>
+                    </div>
+                    <h5>Stay Connected</h5>
+                    <ul class="social-network d-flex align-items-center p-0">
+                        <li><a href="#"><img src="images/footer/facebook.png" alt="facebook"/></a></li>
+                        <li><a href="https://www.instagram.com/kingsukhguesthouse/" target="_blank"><img src="images/footer/instagram.png" alt="instagram"/></a></li>
+                        <li><a href="#"><img src="images/footer/youtube.png" alt="youtube" /></a></li>
+                        <li> <a href="#"><img src="images/footer/twitter.png" alt="twitter" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>Copyright <a href="#"> © Kingsush Guest House.</a> All Rights Reserved.</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
